@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.login{
+ background-color: rgb(0, 85, 255);
+  color:black;
+}
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  background-image: url("https://img.freepik.com/free-vector/simple-monocolor-printable-list_23-2149410120.jpg?size=626&ext=jpg&ga=GA1.1.410353711.1690960315&semt=ais");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.maindiv{
+  color: red;
+}
