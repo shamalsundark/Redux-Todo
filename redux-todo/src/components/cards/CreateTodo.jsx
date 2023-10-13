@@ -22,7 +22,14 @@ const CreateTodo = () => {
     dispatch(saveItem(editValue));
 
   }
+  // const handleEdit = (id) => {
 
+  //   dispatch(editItem(id));
+  //   const todo = todos.find((todo) => todo.id === id)
+  //   if(todo){
+  //     dispatch()
+  //   }
+  // }
 
   return (
     <div className="maindiv">
